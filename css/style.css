@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background: url("../static/BgImg.png");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    display: flex; 
+    justify-content: left;
+    align-items: center;
+}
+#startScreen{
+    background: url("../static/startBg.png");
+    width:105vmin;
+    height: 65vmin;
+    margin-left: 150px;
+    border:4px solid black;
+
+}
+#highScoreBox{
+    position: absolute;
+    font-weight: bolder;
+    font-size: 39px;
+    top: 60px;
+    right: 140px;
+    font-family:'Pangolin', cursive ;
+    color: #e46322;
+}
+#scoreBox{
+    position: absolute;
+    font-weight: bold;
+    font-size: 39px;
+    top: 9px;
+    right: 210px;
+    font-family: 'Pangolin', cursive;
+}
+#strt{
+    margin-top: 20px;
+    margin-left: 210px;
+}
+#gameRegion{
+    background: linear-gradient(#64b1ca,#c6d9e0);
+    width: 92vmin;
+    height: 92vmin;;
+    border:4px solid black;
+   margin-left: 150px;
+   display: none;
+   grid-template-rows:repeat(18,1fr) ;
+   grid-template-columns: repeat(18,1fr);
+
+}
+#gameOver{
+    background: url("../static/startBg.png");
+    display: none;
+    width:105vmin;
+    height: 65vmin;
+    margin-left: 150px;
+    border:4px solid black;
+    font-weight: bolder;
+    font-family: 'Caprasimo', cursive;
+    font-size: x-large;
+    color: #9a281f;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+button{
+  background-color: #047dab; /* Green */
+  border: none;
+  color: #E7F9FF;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: 'Pangolin', cursive;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-left: 231px;
+  transition-duration:0.4s ;
+}
+button:hover{
+  background-color: #E7F9FF; 
+  color: #047dab;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+.head{
+    background: linear-gradient(#2e6c77, #0c81af) ;
+    border:2px solid  #084861 ;
+    border-radius: 8px;
+    transform: scale(1.3);
+}
+.snake{
+    background-color: #0c81af ;
+    /* border:.25vmin solid black; */
+    border-radius: 8px;
+}
+.food{
+    /* background-image: url("../food.png");  */
+    background:linear-gradient(#e46322, #f1986b);
+    border:.25vmin solid black;
+    border-radius: 16px;
+    /* min-width: 1fr;
+    min-height: 1fr; */
+    /* width: 1fr;
+    height: 1fr; */
+    /* object-fit: cover;
+    display: block; */
+
+}
+
