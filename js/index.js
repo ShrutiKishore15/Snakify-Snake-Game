@@ -1,10 +1,10 @@
 //Game constants and variables
 let snakeVelocity={x:0, y:0};
-const foodSound=new Audio('../static/snakeTurn.mp3');
-const gameOverSound=new Audio('../static/gameOver.mp3');
-const moveSound=new Audio('../static/snakeMove.mp3');
-const gameSound=new Audio('../static/Snake Music.mp3');
-const clickSound=new Audio('../static/gameClick.wav');
+const foodSound=new Audio('https://drive.google.com/file/d/1A_cw9SbDyQwRl7jHB1WkDuB3--OFkjl_/view?usp=sharing');
+const gameOverSound=new Audio('https://drive.google.com/file/d/1MIgBz_8FZpERPNpySDeDcwXgF8Q7qhru/view?usp=sharing');
+const moveSound=new Audio('https://drive.google.com/file/d/1Ds29X36nlE54H1wLBSm5F7e5dls7zeHH/view?usp=sharing');
+const gameSound=new Audio('https://drive.google.com/file/d/1dPeo-k5105q6JvDdPz5x8nEjZ04JH_4s/view?usp=sharing');
+const clickSound=new Audio('https://drive.google.com/file/d/10kubeDIj5I-ftcKi8ZCX1GQL_bW48DgM/view?usp=sharing');
 let speed=10;
 let lastPaintTime=0;
 let snakeArr=[
